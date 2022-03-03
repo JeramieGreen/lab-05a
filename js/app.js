@@ -75,7 +75,7 @@ function sumAndMultiply(a, b, c)
   return [sumOfTheTwo,multiplyResult,alphaMessage,betaMessage];
 }
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+// testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -120,9 +120,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  let multiplyArrayReturn = multiply(multiply(multArr[0], multArr[1])[0], multArr[2])[0];
-  let message = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${multiplyArrayReturn}.`;
-  return [multiplyArrayReturn, message];
+//   let multiplyArrayReturn = multiply(multiply(multArr[0], multArr[1])[0], multArr[2])[0];
+//   let message = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${multiplyArrayReturn}.`;
+//   return [multiplyArrayReturn, message];
 
 }
 
@@ -151,12 +151,12 @@ Test this function by hand in the console to get it working, and when you think 
 let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-  let dynamic = 1;
-  for (let i = 0; i < dynamicArray.length; i++){
-    dynamic = multiply(dynamicArray[i], dynamic)[0];
-  }
-  let message = `The numbers ${dynamicArray} have a product of ${dynamic}.`;
-  return [dynamic, message];
+//   let dynamic = 1;
+//   for (let i = 0; i < dynamicArray.length; i++){
+//     dynamic = multiply(dynamicArray[i], dynamic)[0];
+//   }
+//   let message = `The numbers ${dynamicArray} have a product of ${dynamic}.`;
+//   return [dynamic, message];
 
 }
 
